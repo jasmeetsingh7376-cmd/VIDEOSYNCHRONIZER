@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cerebro Code Red</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>CEREBRO CODE RED SYNCHRONIZER</h1>
+
+<button id="broadcasterBtn">Become Broadcaster</button>
+
+<div class="player">
+
+<video id="video" controls>
+<source src="sample.mp4" type="video/mp4">
+</video>
+
+</div>
+
+<div class="status">
+<p>Video Time: <span id="time">0</span></p>
+<p id="connection">Connected</p>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
